@@ -1,0 +1,29 @@
+<?php
+$pollvars['base_url'] = "/poll";
+$pollvars['base_gif'] = "/poll/image";
+$pollvars['lang'] = "russian.php"; 
+$pollvars['title'] = "Advanced Poll";
+$pollvars['vote_button'] = "Проголосовать";
+$pollvars['result_text'] = "Результаты";
+$pollvars['total_text'] = "Всего";
+$pollvars['voted'] = "Вы уже голосовали!";
+$pollvars['send_com'] = "Ваш комментарий";
+$pollvars['table_width'] = "170";
+$pollvars['img_height'] = "10"; 
+$pollvars['img_length'] = "45"; 
+$pollvars['bgcolor_tab']  = "#FFFFFF"; 
+$pollvars['bgcolor_fr'] = "#666699"; 
+$pollvars['font_color'] = "#000000";
+$pollvars['font_face'] = "Verdana, Arial, Helvetica, sans-serif ";
+$pollvars['result_order'] = "desc"; 
+$pollvars['check_ip'] = "0"; 
+$pollvars['lock_timeout'] = "2"; 
+$pollvars['type'] = "percent"; 
+$pollvars['time_offset'] = "0"; 
+$pollvars['polls_pp']  = "12"; 
+$pollvars['entry_pp'] = "5"; 
+$pollvars['def_options'] = "10"; /* следующие параметры изменять не нужно */ 
+$pollvars['poll_username'] = "admin";
+$pollvars['poll_password1] = "bOf6dfb42fa8 0caee6 82 5bfecd3 0f0 94 
+$pollvars['poll_version'] = "2.02";
+?>

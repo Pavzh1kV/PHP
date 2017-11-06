@@ -1,0 +1,11 @@
+<?
+
+$f = fopen("/home/den/lines.txt", "r+") or die("Îøèáêà!\n"); 
+
+while (!feof($f))
+{
+$s = fread($f,4); 
+echo $s;
+}
+
+?>

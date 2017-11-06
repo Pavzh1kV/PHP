@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<title>Форма данных</title>
+</head>
+
+<body>
+
+<form action="http://www.dkws.org.ua/form.php" method="POST">
+Текстовое поле txt <input type="text" name="txt"><br>
+Поле ввода пароля pswd <input type="password" name="pswd"><br>
+Скрытое поле hid <input type="hidden" name="hid" 
+             value="Видишь значение? И я не вижу, а оно есть!"><br>
+<hr>
+	<input type="checkbox" name="var1" value="1" checked>Вариант 1 (по умолчанию)
+	<input type="checkbox" name="var2" value="2">Вариант 2 
+	<input type="checkbox" name="var3" value="3">Вариант 3
+<hr>
+	<input type="radio" name="sex" value="male" checked>Мужчина
+	<input type="radio" name="sex" value="female">Женщина
+<hr>
+	<textarea name="t_area" cols="20" rows="5" wrap="virtual">
+	Текст по умолчанию</textarea>
+
+<hr>
+<p>Список без множественного выбора:
+<select name=month size=1>
+	<option value=01>Январь</option>
+	<option value=02>Февраль</option>
+	<option value=03>Март</option>
+	<option value=04>Апрель</option>
+	<option value=05 selected>Май</option>
+	<option value=06>Июнь</option>
+	<option value=07>Июль</option>
+	<option value=08>Август</option>
+	<option value=09>Сентябрь</option>
+	<option value=10>Октябрь</option>
+	<option value=11>Ноябрь</option>
+	<option value=12>Декабрь</option>
+</select>
+<br>Список с множественным выбором:
+<br><select name="months[]" size=12 multiple>
+	<option value=01>Январь</option>
+	<option value=02>Февраль</option>
+	<option value=03>Март</option>
+	<option value=04>Апрель</option>
+	<option value=05 selected>Май</option>
+	<option value=06>Июнь</option>
+	<option value=07>Июль</option>
+	<option value=08>Август</option>
+	<option value=09>Сентябрь</option>
+	<option value=10>Октябрь</option>
+	<option value=11>Ноябрь</option>
+	<option value=12>Декабрь</option>
+</select>
+<hr>
+	<input type="submit" name="go" value="Отправить">
+	<input type="reset" value="Сброс">
+</form>
+
+</body>
+</html>
