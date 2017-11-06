@@ -1,9 +1,0 @@
-<?
-$str="stroka"
-
-$f = fopen($f, "a+") or die("Îøèáêà!\n");
-
-fwrite ($f, $str."\n");
-
-fclose ($f) ;
-?>
